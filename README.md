@@ -6,18 +6,13 @@ Before you can deploy the application we will need to create an Apache Spark clu
 
 # Creating a Database and Loading the Data
 
-## Step 1 Create a new project
-
-On the right hand side of the console there will be a button to create a new project, click on this and name your new project “winemap”. After you have created the project click on the winemap link to enter it.
-
-
-## Step 2 Deploy a database
+## Step 1 Deploy a database
 
 In the console click the browse catalogue button and search for the postgresql database, click to make the new database. Click the next button this will show you the configuration page, here we will configure your database settings. In the configuration window make sure you enter the details show in the picture, do not worry about changing anything else. Click the create button and then close, you have deployed the first microservice a postgresql database.
 
-## Step 3 Loading the Data
+## Step 2 Loading the Data
 
-In the consol go to the right hand side and you will see an “add to project” button, click on this and choose the “from project” option. We are going to use a data loader template to run a one time job and load the data into the database. The job is a kubernetes job you can find out more about this at this link: http://kubernetesbyexample.com/jobs/
+In the console go to the right hand side and you will see an “add to project” button, click on this and choose the “from project” option. We are going to use a data loader template to run a one time job and load the data into the database. The job is a kubernetes job you can find out more about this at this link: http://kubernetesbyexample.com/jobs/
 You then be presented with the window below, select the wine-data-loader and click the next button. Click the next button twice and then the create button to make the job (you do not need to enter a job name as a random name will be generated from the template.
 
 # Creating an Apache Spark Cluster using Oshinko
