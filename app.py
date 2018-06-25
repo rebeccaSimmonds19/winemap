@@ -14,10 +14,10 @@ app = Flask(__name__)
 class WineMapGenerator:
 
     def __init__(self):
-        server = environ.get("SERVER")
-        user = environ.get("USER")
-        password = environ.get("PASSWORD")
-        dbname = environ.get("DBNAME")
+        server = "postgresql
+        user = "user"
+        password = "password"
+        dbname = "wineDb"
         self.make(server,
                   user, dbname, password)
 
