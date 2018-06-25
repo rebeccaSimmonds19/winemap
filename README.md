@@ -22,6 +22,14 @@ You then be presented with the window below, select the wine-data-loader and cli
 
 # Creating an Apache Spark Cluster using Oshinko
 
+## Step 1 Create the Oshinko Webui
+
+Go to the “add to project” button again and chose the “from project” option. Here you will chose the “oshinko-webui” option and click “next” button twice and then the “create” button to create the service.
+
+## Step 2 Deploying an Apache Spark Cluster
+
+Now you have created your Oshinko-webui you can click on the link shown in the picture below and go to the webui itself. One you are taken to the webui you can deploy your own spark cluster. You do this by clicking the “deploy” button. Once you have done this you will be given the option to specify how many workers and masters you want in you cluster. As this work isn’t very intensive we will specify 1 master and 3 workers as shown in the picture below. Then click “finish” to deploy the cluster. If you go back to the overview of the project you will see the new spark nodes getting deployed. Once these have deployed we are ready to create our application. If you would like to read more about Apache Spark please visit this link: https://spark.apache.org/.
+
 # Deploying the Application
 
 https://github.com/radanalyticsio/winemap-data-loader
