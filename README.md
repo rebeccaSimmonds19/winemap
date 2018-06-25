@@ -32,20 +32,6 @@ Now you have created your Oshinko-webui you can click on the link shown in the p
 
 # Deploying the Application
 
-https://github.com/radanalyticsio/winemap-data-loader
- 
-This is the app that calls a postgresql db to show a map of wine reviews using these commands:
+Go to the console and to the “add to project” button and then chose the “from project” button. In this step we are going to make a python application that can speak to the Apache Spark cluster. Choose the “Apache Spark Python” image this will be used to set up our environment and make sure everything is installed for the app to run, like python and Apache Spark. Click “next” twice this will bring you to the configuration page, this is where we enter the configuration for our application. Make sure to enter the details as shown below and then click create. You have no made your first cloud native application if you go to the link above the wine map application (shown below) this will take you to the wine map - happy traveling!
 
-
-```sh
-oc new-app --template=oshinko-python-spark-build-dc \
-  -p APPLICATION_NAME=winemap \
-  -p GIT_URI=https://github.com/radanalyticsio/winemap.git \
-  -p SPARK_OPTIONS='--packages org.postgresql:postgresql:42.1.4' \
-  -p OSHINKO_CLUSTER_NAME=<oshinko_cluster_name> \
-  -e SERVER=postgresql \
-  -e DBNAME=wineDb \
-  -e PASSWORD=password \
-  -e USER=username
-  ```
 
