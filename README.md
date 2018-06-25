@@ -4,7 +4,7 @@ This lab is intended to empower developers to create their own cloud native appl
 
 Before you can deploy the application we will need to create an Apache Spark cluster for processing the data as well as a database to hold the data we will process.
 
-# Creating a Database and Loading data
+# Creating a Database and Loading the Data
 
 # Creating an Apache Spark Cluster using Oshinko
 
