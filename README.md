@@ -19,6 +19,9 @@ You will then be presented with the window below, select the wine-data-loader an
 
 ![data loader](resources/data-loader.png)
 
+All the code for this section is stored in this repository:
+https://github.com/radanalyticsio/winemap-data-loader
+
 # Creating an Apache Spark Cluster using Oshinko
 
 ## Step 1 Create the Oshinko Webui
