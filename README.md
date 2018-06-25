@@ -11,7 +11,7 @@ Before you can deploy the application we will need to create an Apache Spark clu
 On the right hand side of the console there will be a button to create a new project, click on this and name your new project “winemap”. After you have created the project click on the winemap link to enter it.
 
 
-## Step 2. Deploy a database
+## Step 2 Deploy a database
 
 In the console click the browse catalogue button and search for the postgresql database, click to make the new database. Click the next button this will show you the configuration page, here we will configure your database settings. In the configuration window make sure you enter the details show in the picture, do not worry about changing anything else. Click the create button and then close, you have deployed the first microservice a postgresql database.
 
