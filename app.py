@@ -15,7 +15,7 @@ class WineMapGenerator:
 
     def __init__(self):
         server = "postgresql"
-        user = "user"
+        user = "username"
         password = "password"
         dbname = "wineDb"
         self.make(server,
