@@ -14,7 +14,7 @@ app = Flask(__name__)
 class WineMapGenerator:
 
     def __init__(self):
-        server = "postgresql
+        server = "postgresql"
         user = "user"
         password = "password"
         dbname = "wineDb"
