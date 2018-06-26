@@ -46,5 +46,5 @@ To access the application you need to create a route, click on the link shown in
 
 ![link](resources/link.png)
 
-Feel free to extend this app and go through other tutorials found at https://radnanalytics.io
+Feel free to extend this app and go through other tutorials found at https://radanalytics.io
 
