@@ -42,3 +42,9 @@ Go to the console and to the “add to project” button and then chose the “f
 ![config](resources/app-config1.png)
 ![config](resources/app-config2.png)
 
+To access the application you need to create a route, click on the link shown in the picture below and then click create (you do not need to enter any information to create the URL however you can rename it if you like). Click on the URL created above the winemap container and this will open the winemap for you.
+
+![link](resources/link.png)
+
+Feel free to extend this app and go through other tutorials found at https://radnanalytics.io
+
